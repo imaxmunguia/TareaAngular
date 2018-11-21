@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "dsMongoDB": {
+    "host": "ds062889.mlab.com",
+    "port": 62889,
+    "url": "mongodb://im3:Noicama87@ds062889.mlab.com:62889/helloloopback",
+    "database": "helloloopback",
+    "password": "Noicama87",
+    "name": "dsMongoDB",
+    "user": "im3",
+    "connector": "mongodb"
+  }
+}

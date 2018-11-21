@@ -1,0 +1,41 @@
+{
+  "name": "peliculas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "director": {
+      "type": "string",
+      "required": true
+    },
+    "actor": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number",
+      "required": true
+    },
+    "pais": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "number",
+      "required": true
+    },
+    "urlportada": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
